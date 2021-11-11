@@ -30,15 +30,16 @@ body {
 .calc::after {
     z-index: -1;
     position: relative;
-    margin-top: 222px;
-    margin-left: 260px;
+    margin-top: 50px;
+    margin-left: 70px;
     content: "";
     display: block;
     width: 765px;
-    height: 285px;
+    height: 590px;
     background-color: #8E373D;
-    box-shadow: 0px 100px 0px 150px #8E373D;
     transform: rotate(38deg);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 .calc-monitor {
